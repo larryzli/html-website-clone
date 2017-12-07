@@ -1,0 +1,163 @@
+body {
+    background: #0828cc;
+    min-width: 800px;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 50px;
+    margin: 20px;
+    font-weight: 700;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /*background-color: gray;*/
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+nav a:hover {
+    opacity: 0.5;
+}
+
+header button {
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+header button:hover {
+    background-color: white;
+    color: #0828cc;
+}
+
+.logo {
+    height: 50px;
+    width: 200px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.main-content img {
+    width: 200px;
+    margin: 20px;
+}
+
+.main-content p {
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    width: 80%;
+    margin: 20px;
+    line-height: 1.7rem;
+}
+
+.main-content button {
+    font-family: sans-serif;
+    background-color: white;
+    color: #0828cc;
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin: 20px;
+}
+
+.main-content button:hover {
+    background-color: #0828cc;
+    color: white;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
+.social-media button {
+    margin: 5px 0px;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+}
+
+.social-media button:hover {
+    background-color: white;
+    color: #0828cc;
+}
+
+.invision-tag {
+    position: fixed;
+    bottom: 50px;
+    left: 10px;
+}
+
+.invision-tag p {
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 10px;
+    transform: rotate(-90deg);
+}
+
+.invision-tag p:hover {
+    color: salmon;
+}
+
+#subscribe {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#scroller {
+    position: relative;
+    bottom: -150px;
+    font-size: 10px;
+}
